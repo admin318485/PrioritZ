@@ -27,7 +27,7 @@ jobs:
       with:
         lfs: true
     - name: export-solution action
-      uses:  icrosoft/powerplatform-actions/export-solution@v0
+      uses:  microsoft/powerplatform-actions/export-solution@v0
       with:
         environment-url: ${{secrets.PowerPlatformDevUrl}}
         app-id: ${{secrets.PowerPlatformAppID}}
