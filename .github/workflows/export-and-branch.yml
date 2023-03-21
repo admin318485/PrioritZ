@@ -36,7 +36,7 @@ jobs:
         solution-name: ${{ github.event.inputs.solution_name }}
         solution-output-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip
     - name: export-managed-solution action
-      uses:  icrosoft/powerplatform-actions/export-solution@v0
+      uses:  microsoft/powerplatform-actions/export-solution@v0
       with:
         environment-url: ${{secrets.PowerPlatformDevUrl}}
         app-id: ${{secrets.PowerPlatformAppID}}
